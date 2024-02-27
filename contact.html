@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Information</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: yellowgreen;
+    }
+
+    .contact-info {
+      display: flex;
+      /* flex-direction: column; */
+      align-items: center;
+
+      justify-content: space-around;
+      margin-top: 200px;
+    }
+
+    .contact-item {
+      margin: 20px;
+    }
+
+    .contact-logo {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 10px;
+    }
+
+    .contact-link {
+      text-decoration: none;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .navbar a.active {
+      border-bottom: 2px solid yellowgreen;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Mukkatira</a>
+
+        <nav class="navbar">
+            <a href="1home.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="NIVESH SOMANNA RESUME.pdf" target="_new" class="resume">Resume</a>
+            <!-- <a href="#">Portfolio</a> -->
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+  <!-- <h1>Contact Information</h1> -->
+
+  <div class="contact-info">
+    <div class="contact-item">
+      <img src="linkedin-logo.png" alt="LinkedIn Logo" class="contact-logo">
+      <br>
+      <a href="https://www.linkedin.com/in/nivesh-somanna1122000/" target="_blank" class="contact-link">LinkedIn</a>
+    </div>
+
+    <!-- <div class="contact-item">
+      <img src="facebook-logo.png" alt="Facebook Logo" class="contact-logo">
+      <br>
+      <a href="https://www.facebook.com/your-facebook-profile" target="_blank" class="contact-link">Facebook Profile</a>
+    </div> -->
+
+    <div class="contact-item">
+      <img src="phone-logo.png" alt="Phone Logo" class="contact-logo">
+      <br>
+      <p>Phone: 9902316127</p>
+    </div>
+
+    <div class="contact-item">
+      <img src="email-logo.png" alt="Email Logo" class="contact-logo">
+      <br>
+      <p><a href="mailto:niveshsomannamb@gmail.com">niveshsomannamb@gmail.com</a></p>
+    </div>
+  </div>
+
+</body>
+</html>
+
